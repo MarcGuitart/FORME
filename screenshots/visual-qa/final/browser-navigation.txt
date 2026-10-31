@@ -1,0 +1,6 @@
+Card open → next → browser back → browser forward → return to collection
+#story=911-s
+#story=f40
+#story=911-s
+#story=f40
+#discover

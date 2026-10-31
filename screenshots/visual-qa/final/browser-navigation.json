@@ -1,0 +1,11 @@
+{
+  "journey": [
+    "#story=911-s",
+    "#story=f40",
+    "#story=911-s",
+    "#story=f40",
+    "#discover"
+  ],
+  "mobileViewport": 390,
+  "noHorizontalOverflow": true
+}

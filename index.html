@@ -3,69 +3,75 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#e9e7e1" />
+  <meta name="theme-color" content="#1c201c" />
   <meta name="description" content="A moving archive of the cars that move us." />
   <title>FORME — The art of the automobile</title>
+  <link rel="preload" as="image" href="./public/assets/photography/porsche-911-rally-1440.webp" imagesrcset="./public/assets/photography/porsche-911-rally-640.webp 640w, ./public/assets/photography/porsche-911-rally-960.webp 960w, ./public/assets/photography/porsche-911-rally-1440.webp 1440w" imagesizes="100vw" type="image/webp" fetchpriority="high" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./src/styles.css" />
 </head>
 <body>
   <header class="topbar">
     <a class="wordmark" href="#home" aria-label="Forme home">F<span>O</span>RME<span class="wordmark-dot">.</span></a>
     <nav class="main-nav" aria-label="Main navigation">
-      <a class="active" href="#discover">Discover</a><a href="#archive">The archive</a><a href="#about">About</a>
+      <a class="active" href="#discover">Discover</a><a href="#archive">The archive</a>
     </nav>
-    <button class="menu-button" aria-label="Open menu"><span></span><span></span></button>
+    <a class="edition-mark" href="#about">A STUDY IN AUTOMOTIVE FORM</a>
   </header>
 
   <main id="home">
     <section class="hero" aria-labelledby="hero-title">
-      <div class="hero-photo"></div>
+      <picture class="hero-picture"><source type="image/webp" srcset="./public/assets/photography/porsche-911-rally-640.webp 640w, ./public/assets/photography/porsche-911-rally-960.webp 960w, ./public/assets/photography/porsche-911-rally-1440.webp 1440w" sizes="100vw"/><img class="hero-photo" src="./public/assets/photography/porsche-911-rally.jpg" width="1920" height="1293" alt="A red Porsche 911 rally car moving through a wooded stage" fetchpriority="high" /></picture>
       <div class="hero-shade"></div>
-      <div class="hero-kicker"><span class="live-dot"></span> A moving archive of the automobile <span class="kicker-year">EST. MMXXIV</span></div>
+      <div class="hero-kicker"><span class="live-dot"></span> A moving archive of the automobile <span class="kicker-year">VOL. 01 — THE ICONS</span></div>
       <div class="hero-copy">
-        <p class="eyebrow">FORME — VOL. 01 / THE ICONS</p>
-        <h1 id="hero-title">Some things<br />are <em>timeless.</em></h1>
-        <p class="hero-deck">A closer look at the machines<br />that move us.</p>
-        <a class="round-link" href="#discover"><span>Explore the collection</span><b>↘</b></a>
+        <p class="eyebrow">THE ART OF THE AUTOMOBILE</p>
+        <h1 id="hero-title">Made to<br /><em>move us.</em></h1>
+        <p class="hero-deck">An ongoing study of the machines,<br />moments and people that stay with us.</p>
+        <a class="round-link" href="#discover"><span>Enter the collection</span><b>↘</b></a>
       </div>
-      <div class="hero-caption"><span>01 / 06</span><i></i><span>PORSCHE 911 S · 1972</span></div>
-      <div class="hero-index">AIR-COOLED<br />ERA — 1963 / 1998</div>
-      <div class="hero-scroll">SCROLL TO DISCOVER <span>↓</span></div>
+      <a class="hero-caption" href="#discover"><span>ON THE HILL</span><i></i><span>911 RALLY · GOODWOOD, 2014 <b>↘</b></span></a>
+      <a class="hero-credit" href="https://commons.wikimedia.org/wiki/File:Porsche_911_Rallycar_(14574074995).jpg" target="_blank" rel="noreferrer">PHOTOGRAPH BY NIC REDHEAD · CC BY-SA 2.0 ↗</a>
+      <div class="hero-scroll">SCROLL TO WANDER <span>↓</span></div>
     </section>
 
     <section class="intro" id="about">
-      <span class="section-label">A DIFFERENT KIND OF CAR CULTURE</span>
-      <p>Not a catalogue. Not a spec sheet. <em>A place to lose yourself</em> in the lines, the stories and the feeling of the world's most remarkable cars.</p>
-      <span class="intro-aside">AN ONGOING STUDY<br />IN AUTOMOTIVE FORM</span>
+      <span class="section-label">A NOTE ON THE COLLECTION</span>
+      <p>Some machines stay with us long after the road ends. <em>For their shape. For what they made possible. For how they made us feel.</em></p>
+      <span class="intro-aside">FORME JOURNAL<br />ISSUE Nº 01</span>
     </section>
 
     <section class="collection" id="discover">
       <div class="collection-head">
-        <div><span class="section-label">THE COLLECTION — 001</span><h2>Made to <em>move</em> you.</h2></div>
-        <p>Icons, originals, and the ones<br />you may have missed.</p>
+        <div><span class="section-label">THE COLLECTION — 001</span><h2>Forms that <em>remain.</em></h2></div>
+        <p>Six studies in character,<br />craft and consequence.</p>
       </div>
       <div class="filters" role="group" aria-label="Filter collection">
         <button class="filter active" data-filter="All">All <span>06</span></button>
         <button class="filter" data-filter="Classic">Classics</button>
         <button class="filter" data-filter="Supercar">Supercars</button>
-        <button class="filter" data-filter="Rally">Motorsport</button>
-        <span class="filter-note">SELECT A FORM TO EXPLORE <b>↗</b></span>
+        <button class="filter" data-filter="Touring">Touring</button>
+        <span class="filter-note">CHOOSE A STORY <b>↗</b></span>
       </div>
       <div class="car-grid" id="car-grid"></div>
       <div class="collection-footer"><span>SHOWING <b id="count">06</b> OF 06</span><span>MORE STORIES ARE TAKING SHAPE <b>✳</b></span></div>
     </section>
 
     <section class="archive-tease" id="archive">
-      <div class="archive-image"></div><div class="archive-content"><span class="section-label">THE ARCHIVE — A LIVING HISTORY</span><h2>Every era leaves<br />a <em>mark.</em></h2><p>From hand-built beginnings to tomorrow's dream machines. The archive traces the ideas, people, and moments that changed the shape of the road.</p><a href="#discover" class="text-link">WANDER THROUGH THE YEARS <span>↗</span></a></div>
+      <picture class="archive-picture"><source type="image/webp" srcset="./public/assets/photography/porsche-911-s-targa-640.webp 640w, ./public/assets/photography/porsche-911-s-targa-960.webp 960w, ./public/assets/photography/porsche-911-s-targa-1440.webp 1440w" sizes="(max-width:760px) 100vw, 52vw"/><img class="archive-image" src="./public/assets/photography/porsche-911-s-targa.jpg" width="1920" height="951" alt="1972 Porsche 911 S 2.4 Targa in the Porsche museum" loading="lazy"/></picture><div class="archive-content"><span class="section-label">THE ARCHIVE — A LIVING HISTORY</span><h2>Every era leaves<br />a <em>mark.</em></h2><p>From hand-built beginnings to tomorrow's dream machines. The archive traces the ideas, people, and moments that changed the shape of the road.</p><a href="#discover" class="text-link">WANDER THROUGH THE YEARS <span>↗</span></a></div>
       <span class="archive-index">A STUDY OF<br />MOVING FORM</span>
+      <a class="archive-credit" href="https://commons.wikimedia.org/wiki/File:Porsche_911_S_2.4_Targa_(1972,_Porsche_Classic)_1X7A0346.jpg" target="_blank" rel="noreferrer">ARCHIVE IMAGE · ALEXANDER MIGL · CC BY-SA 4.0 ↗</a>
     </section>
   </main>
-  <footer><a class="wordmark" href="#home">F<span>O</span>RME<span class="wordmark-dot">.</span></a><span>MADE FOR THE LOVE OF THE DRIVE.</span><span>© FORME 2025</span></footer>
+  <footer><a class="wordmark" href="#home">F<span>O</span>RME<span class="wordmark-dot">.</span></a><span>AN ONGOING STUDY IN AUTOMOTIVE FORM.</span><a class="credits-link" href="./photography-credits.html">PHOTOGRAPHY CREDITS ↗</a><span>© FORME — VOL. 01</span></footer>
 
-  <dialog class="car-dialog" id="car-dialog"><button class="dialog-close" aria-label="Close details">×</button><div class="dialog-image"></div><div class="dialog-copy"><span class="section-label"></span><h2></h2><p></p><div class="dialog-meta"></div></div></dialog>
+  <section class="story-view" id="story-view" aria-label="Vehicle story" aria-hidden="true" inert>
+    <div class="story-hero"><picture class="story-picture"><source class="story-image-source" type="image/webp"/><img class="story-image" alt="" width="1920" height="1280"/></picture><a class="story-back" href="#discover"><span>←</span> BACK TO THE COLLECTION</a><span class="story-count"></span><div class="story-title"><span class="section-label"></span><h2></h2></div><a class="story-credit" target="_blank" rel="noreferrer"><span></span><b></b> ↗</a></div>
+    <div class="story-body"><div class="story-index"><span class="section-label">THE FORME JOURNAL</span><span class="story-number"></span></div><article class="story-text"><p class="story-chapter"></p><p class="story-lead"></p><p class="story-detail"></p><figure class="story-detail-photo" hidden><picture><source type="image/webp"/><img alt="" width="1920" height="1280" loading="lazy"/></picture><figcaption></figcaption></figure><blockquote class="story-pullquote"></blockquote><div class="story-meta"></div></article></div>
+    <div class="story-navigation"><button class="story-prev" type="button"><span>←</span><small>PREVIOUS FORM</small><span class="story-nav-image"><img alt="" width="640" height="420" loading="lazy"/></span><b></b></button><span class="story-nav-center">CONTINUE WANDERING</span><button class="story-next" type="button"><small>NEXT FORM</small><span class="story-nav-image"><img alt="" width="640" height="420" loading="lazy"/></span><b></b><span>→</span></button></div>
+  </section>
   <script src="./src/app.js"></script>
 </body>
 </html>

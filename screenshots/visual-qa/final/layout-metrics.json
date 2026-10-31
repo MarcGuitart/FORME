@@ -1,0 +1,59 @@
+{
+  "desktopMiura": {
+    "viewport": 1440,
+    "title": "Miura P400 S",
+    "height": 160,
+    "scrollHeight": 205
+  },
+  "mobileStories": [
+    {
+      "story": "#story=911-s",
+      "viewport": 390,
+      "documentWidth": 390,
+      "headingScrollWidth": 156,
+      "headingClientWidth": 156
+    },
+    {
+      "story": "#story=f40",
+      "viewport": 390,
+      "documentWidth": 390,
+      "headingScrollWidth": 162,
+      "headingClientWidth": 162
+    },
+    {
+      "story": "#story=2002-turbo",
+      "viewport": 390,
+      "documentWidth": 390,
+      "headingScrollWidth": 268,
+      "headingClientWidth": 268
+    },
+    {
+      "story": "#story=miura-p400",
+      "viewport": 390,
+      "documentWidth": 390,
+      "headingScrollWidth": 339,
+      "headingClientWidth": 339
+    },
+    {
+      "story": "#story=190-e",
+      "viewport": 390,
+      "documentWidth": 390,
+      "headingScrollWidth": 233,
+      "headingClientWidth": 233
+    },
+    {
+      "story": "#story=e-type",
+      "viewport": 390,
+      "documentWidth": 390,
+      "headingScrollWidth": 286,
+      "headingClientWidth": 286
+    }
+  ],
+  "mobileDiscovery": {
+    "viewport": 390,
+    "documentWidth": 390,
+    "featureTagRight": 363,
+    "featureTagWidth": 98,
+    "featureTagText": "AN EXERCISE IN RESTRAINT"
+  }
+}
